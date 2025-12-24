@@ -1,0 +1,16 @@
+cmake
+setuptools
+wheel
+ipywidgets
+
+torch
+torchvision
+torchaudio
+transformers
+
+langchain-community
+optimum-intel[openvino,nncf]
+chromadb
+
+# to be developed:
+# fastrag
