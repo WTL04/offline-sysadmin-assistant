@@ -1,16 +1,22 @@
+# system setup
 cmake
 setuptools
 wheel
 ipywidgets
 
+# langchain prerequisites
 torch
 torchvision
 torchaudio
 transformers
 
 langchain-community
-optimum-intel[openvino,nncf]
+langsmith # dev platform 
+langchain-chroma # vectorstore
 chromadb
+lxml # bs4 dependancy
+bs4 # langchain html document loader
+optimum-intel[openvino,nncf] # intel optimized embedding models
 
 # to be developed:
 # fastrag

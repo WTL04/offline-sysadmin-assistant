@@ -2,3 +2,5 @@ fastRAG/
 arch-wiki/
 venv/
 .ipynb_checkpoints/
+.env
+chroma_langchain_db/
