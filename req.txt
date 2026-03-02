@@ -16,7 +16,19 @@ langchain-chroma # vectorstore
 chromadb
 lxml # bs4 dependancy
 bs4 # langchain html document loader
-optimum-intel[openvino,nncf] # intel optimized embedding models
+
+# intel optimized embedding models
+optimum-intel[openvino,nncf]
+
+# BGE M3, dense and sparse auto embedding model
+FlagEmbedding
+pymilvus
+pymilvus[model]
+
+# similarity search 
+faiss-gpu-cu12 # cuda 12
+
+
 
 # to be developed:
 # fastrag
