@@ -3,6 +3,7 @@ cmake
 setuptools
 wheel
 ipywidgets
+ipykernel
 
 # langchain prerequisites
 torch

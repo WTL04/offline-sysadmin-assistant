@@ -1,6 +1,10 @@
 from rapidocr import RapidOCR
 import pyautogui
 
+"""
+Test for future agent tool, screenshot screen for more problem context
+"""
+
 engine = RapidOCR()
 
 screenshot = pyautogui.screenshot()
